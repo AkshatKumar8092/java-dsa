@@ -1,6 +1,6 @@
 package org.Akshat.learnJavaWithMe.sorting.bubbleSort;
 
-import org.Akshat.learnJavaWithMe.utils.arrUtils;
+import org.Akshat.learnJavaWithMe.utils.ArrayUtils;
 
 public class BubbleSort {
 
@@ -8,7 +8,7 @@ public class BubbleSort {
 
 
         System.out.println("Array before sorting: ");
-        arrUtils.printArr(arr);
+        ArrayUtils.printArr(arr);
 
 
         for(int i = 0; i< arr.length-1; i++){
@@ -16,7 +16,7 @@ public class BubbleSort {
             for(int j = 0; j<arr.length-1-i; j++){
 
                 if(arr[j]>arr[j+1])
-                    arrUtils.swap(arr, j, j+1);
+                    ArrayUtils.swap(arr, j, j+1);
 
             }
 
@@ -24,7 +24,7 @@ public class BubbleSort {
 
 
         System.out.println("Array after sorting: ");
-        arrUtils.printArr(arr);
+        ArrayUtils.printArr(arr);
 
 
 
